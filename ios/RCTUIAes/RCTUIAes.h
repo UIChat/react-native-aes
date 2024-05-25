@@ -9,6 +9,6 @@
 
 #import <React/RCTBridgeModule.h>
 
-@interface RCTAes : NSObject <RCTBridgeModule>
+@interface RCTUIAes : NSObject <RCTBridgeModule>
 
 @end

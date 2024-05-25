@@ -7,10 +7,10 @@
 //
 
 
-#import "RCTAes.h"
+#import "RCTUIAes.h"
 #import "AesCrypt.h"
 
-@implementation RCTAes
+@implementation RCTUIAes
 
 RCT_EXPORT_MODULE()
 
