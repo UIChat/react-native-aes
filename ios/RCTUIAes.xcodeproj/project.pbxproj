@@ -26,7 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		32D980DD1BE9F11C00FA27E5 /* libRCTAes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTAes.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D980DD1BE9F11C00FA27E5 /* libRCTUIAes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTUIAes.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D980E01BE9F11C00FA27E5 /* RCTAes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTAes.h; sourceTree = "<group>"; };
 		32D980E21BE9F11C00FA27E5 /* RCTAes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTAes.m; sourceTree = "<group>"; };
 		9BE20B591E4E1A3700696172 /* AesCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AesCrypt.h; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		32D980DE1BE9F11C00FA27E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32D980DD1BE9F11C00FA27E5 /* libRCTAes.a */,
+				32D980DD1BE9F11C00FA27E5 /* libRCTUIAes.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		32D980DC1BE9F11C00FA27E5 /* RCTAes */ = {
+		32D980DC1BE9F11C00FA27E5 /* RCTUIAes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32D980F11BE9F11C00FA27E5 /* Build configuration list for PBXNativeTarget "RCTAes" */;
+			buildConfigurationList = 32D980F11BE9F11C00FA27E5 /* Build configuration list for PBXNativeTarget "RCTUIAes" */;
 			buildPhases = (
 				32D980D91BE9F11C00FA27E5 /* Sources */,
 				32D980DA1BE9F11C00FA27E5 /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = RCTAes;
+			name = RCTUIAes;
 			productName = RCTAes;
-			productReference = 32D980DD1BE9F11C00FA27E5 /* libRCTAes.a */;
+			productReference = 32D980DD1BE9F11C00FA27E5 /* libRCTUIAes.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 32D980D81BE9F11C00FA27E5 /* Build configuration list for PBXProject "RCTAes" */;
+			buildConfigurationList = 32D980D81BE9F11C00FA27E5 /* Build configuration list for PBXProject "RCTUIAes" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				32D980DC1BE9F11C00FA27E5 /* RCTAes */,
+				32D980DC1BE9F11C00FA27E5 /* RCTUIAes */,
 			);
 		};
 /* End PBXProject section */
@@ -280,7 +280,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		32D980D81BE9F11C00FA27E5 /* Build configuration list for PBXProject "RCTAes" */ = {
+		32D980D81BE9F11C00FA27E5 /* Build configuration list for PBXProject "RCTUIAes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32D980EF1BE9F11C00FA27E5 /* Debug */,
@@ -289,7 +289,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32D980F11BE9F11C00FA27E5 /* Build configuration list for PBXNativeTarget "RCTAes" */ = {
+		32D980F11BE9F11C00FA27E5 /* Build configuration list for PBXNativeTarget "RCTUIAes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32D980F21BE9F11C00FA27E5 /* Debug */,

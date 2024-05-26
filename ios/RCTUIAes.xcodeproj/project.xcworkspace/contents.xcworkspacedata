@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/abdulosman/Projects/react-native-aes/ios/RCTUIAes.xcodeproj">
    </FileRef>
 </Workspace>
