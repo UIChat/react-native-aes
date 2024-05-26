@@ -55,7 +55,7 @@ public class RCTAes extends ReactContextBaseJavaModule {
 
     @Override
     public String getName() {
-        return "RCTAes";
+        return "RCTUIAes";
     }
 
     @ReactMethod
