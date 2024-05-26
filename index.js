@@ -1,4 +1,4 @@
 'use strict'
 import { NativeModules } from 'react-native'
 
-export default NativeModules.RCTUIAes
+export default NativeModules.UIAes
